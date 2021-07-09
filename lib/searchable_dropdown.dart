@@ -631,7 +631,7 @@ class _SearchableDropdownState<T> extends State<SearchableDropdown<T>> {
         Stack(
           children: <Widget>[
             Padding(
-              padding: EdgeInsets.all(10.0),
+              padding: EdgeInsets.all(0.0),
               child: result,
             ),
             widget.underline is NotGiven
